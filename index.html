@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="/index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading-1">Password Generator</h1>
+        <textarea class="generated-password" name="generated-password" id="generated-password" rows="2" readonly placeholder="Generated Password will be here"></textarea>
+
+        <div class="box-big">
+            <label for="length" class="label">Password length</label>
+            <input min="6" max="50" value="6" class="input-range" type="range" name="length-range" id="length-range">
+            <input class="input-length" type="number" name="length" id="length" min="6" max="50" value="6">
+        </div>
+
+        <div class="box-small">
+            <input class="checkbox" type="checkbox" name="include-big-letters" id="include-big-letters">
+            <label for="include-big-letters" class="label">Include A-Z</label>
+        </div>
+        <div class="box-small">
+            <input class="checkbox" type="checkbox" name="include-numbers" id="include-numbers">
+            <label for="include-numbers" class="label">Include Numbers</label>
+        </div>
+        <div class="box-small">
+            <input class="checkbox" type="checkbox" name="include-symbols" id="include-symbols">
+            <label for="include-symbols" class="label">Include symbols</label>
+        </div>
+
+        <button class="btn" id="btn">Generate Password</button>
+
+    </div>
+</body>
+</html>
