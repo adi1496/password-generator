@@ -15,7 +15,7 @@
             "purpose": "maskable any"
         }
     ],
-    "start_url": "/?home=true",
+    "start_url": "/password-generator/",
     "display": "fullscreen",
     "theme_color": "#000000",
     "orientation": "portrait",
