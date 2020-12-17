@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "",
-    "deploy": "gh-pages -d ./"
+    "deploy": "gh-pages -d public"
   },
   "author": "Adrian Matei",
   "license": "ISC"
